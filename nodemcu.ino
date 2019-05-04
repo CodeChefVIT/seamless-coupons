@@ -6,7 +6,7 @@
 #define SS_PIN 10
 #define RST_PIN 9
 MFRC522 mfrc522(SS_PIN, RST_PIN);  
- 
+String status ="";
 const char* ssid = "Sandeep's Vivo";
 const char* password = "qwerty123";
 int fst,snd;
@@ -66,8 +66,8 @@ if ( ! mfrc522.PICC_IsNewCardPresent())
   }
   Serial.println();
   Serial.print("Message : ");
-  String rfid = content.toUpperCase();
-  
+  content.toUpperCase();
+  String rfid = content.substring(1);
 
 
 
@@ -76,7 +76,7 @@ if (WiFi.status() == WL_CONNECTED){
   http.begin("http://192.168.43.194/codechef/final.php?rfid="+rfid);
   int httpcode = http.GET();
   if (httpcode>0){
-    String status = http.getString();
+    status = http.getString();
     //Serial.print(status);
     }
 }
