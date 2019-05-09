@@ -1,8 +1,8 @@
-##Seamless Cards
+## Seamless Cards
 
-###CodeChef Project
+### CodeChef Project
 
-####Sai Sandeep
+#### Sai Sandeep
 
 This repository is made for a smart card which acts as a seemless card with the following functionalities:
 1) This seemless card can be used by the students for local transactions to buy essentials.
