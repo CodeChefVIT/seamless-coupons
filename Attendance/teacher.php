@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "food";
+$dbname = "seamlesscoupons";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 
