@@ -12,7 +12,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 const char *ssid = "Sandeep's Vivo";  //ENTER YOUR WIFI SETTINGS
 const char *password = "qwerty123";
  
-const char *host = "192.168.43.194";
+const char *host = "192.168.43.194"; // ENTER IP - ADRESS
 
 void setup() {
   delay(1000);
