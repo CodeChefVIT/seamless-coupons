@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "food";
+$dbname = "seamless-coupons";
 
 $att = "p";
 $d = date("j");
