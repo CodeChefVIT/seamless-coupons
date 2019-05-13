@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password ="";
-$database = "food";
+$database = "seamlesscoupons";
 $rfid = $_GET['rfid'];
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try{
