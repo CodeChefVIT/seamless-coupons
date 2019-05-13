@@ -1,4 +1,4 @@
-### Steps for Using the code : -
+#### Steps for Using the code : -
 1 == > Download or clone the repository
 2 == > Extract and place the folder in your htdocs of webserver (Make sure you have Xampp or Mamp)
 3 == > In your Arduino code change wifi credentials and ip adress of your laptop according your credentials.
