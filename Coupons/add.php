@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $password ="";
-$database = "food";
+$database = "seamlesscoupons";
 
 $rfid = $_GET['rfid'];
 $coupons = "1";
