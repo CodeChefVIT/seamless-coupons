@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password ="";
-$database = "food";
+$database = "seamlesscoupons";
 
 $final = $_GET['final'];
 list($send_rfid,$rcv_rfid,$amount,$pin) = explode(";", $final);
